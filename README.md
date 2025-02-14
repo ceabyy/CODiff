@@ -18,11 +18,11 @@
 
 <!-- ![vis-main-top](images/vis-main-top.png) -->
 
-[<img src="figs/comp/img_017.png" width="266px"/>](https://imgsli.com/MzQ5Mjkz) [<img src="figs/comp/img_029.png" width="266px"/>](https://imgsli.com/MzQ5MzEy) [<img src="figs/comp/img_053.png" width="266px"/>](https://imgsli.com/MzQ5Mjk1)
+[<img src="figs/comp/img_017.png" width="280px"/>](https://imgsli.com/MzQ5Mjkz) [<img src="figs/comp/img_029.png" width="280px"/>](https://imgsli.com/MzQ5MzEy) [<img src="figs/comp/img_053.png" width="280px"/>](https://imgsli.com/MzQ5Mjk1)
 
-[<img src="figs/comp/img_054.png" width="266px"/>](https://imgsli.com/MzQ5Mjk2) [<img src="figs/comp/img_075.png" width="266px"/>](https://imgsli.com/MzQ5Mjk3) [<img src="figs/comp/img_082.png" width="266px"/>](https://imgsli.com/MzQ5MzAx)
+[<img src="figs/comp/img_054.png" width="280px"/>](https://imgsli.com/MzQ5Mjk2) [<img src="figs/comp/img_075.png" width="280px"/>](https://imgsli.com/MzQ5Mjk3) [<img src="figs/comp/img_082.png" width="280px"/>](https://imgsli.com/MzQ5MzAx)
 
-[<img src="figs/comp/lighthouse2.png" width="266px"/>](https://imgsli.com/MzQ5MzAy) [<img src="figs/comp/monarch.png" width="266px"/>](https://imgsli.com/MzQ5MzAz) [<img src="figs/comp/parrots.png" width="266px"/>](https://imgsli.com/MzQ5MzA1)
+[<img src="figs/comp/lighthouse2.png" width="280px"/>](https://imgsli.com/MzQ5MzAy) [<img src="figs/comp/monarch.png" width="280px"/>](https://imgsli.com/MzQ5MzAz) [<img src="figs/comp/parrots.png" width="280px"/>](https://imgsli.com/MzQ5MzA1)
 
 
 
