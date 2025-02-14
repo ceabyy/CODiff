@@ -76,7 +76,7 @@ We achieved state-of-the-art performance on LIVE-1, Urban100 and DIV2K-val datas
 <img src="figs/urban100-fig.png" >
 </p>
 </li>
-<li> Results in Figure 6 on real-world dataset (Wider-Test, LFW-Test, WebPhoto-Test) from the main paper.
+<li> Visual results on DIV2K-val dataset from the main paper.
 <p align="center">
 <img src="figs/div2k-val-fig.png" >
 </p>
