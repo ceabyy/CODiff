@@ -1,6 +1,6 @@
 # Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal
 
-[Jinpei Guo](https://jp-guo.github.io/), [Zheng Chen](https://zhengchen1999.github.io/), Wenbo Li,  Yong Guo, and [Yulun Zhang](http://yulunzhang.com/),  "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", 2024
+[Jinpei Guo](https://jp-guo.github.io/), [Zheng Chen](https://zhengchen1999.github.io/), [Wenbo Li](https://fenglinglwb.github.io/),  [Yong Guo](https://www.guoyongcs.com/), and [Yulun Zhang](http://yulunzhang.com/),  "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", arXiv, 2025
 
 [[paper]()] [[supplementary material]()]
 
@@ -85,7 +85,16 @@ We achieved state-of-the-art performance on LIVE-1, Urban100 and DIV2K-val datas
 
 ## <a name="citation"></a>📎 Citation
 
-[TBD]
+If you find the code helpful in your research or work, please cite the following paper(s).
+
+```
+@article{wang2024osdface,
+    title={Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal},
+    author={Guo, Jinpei and Chen, Zheng and Li, Wenbo and Guo, Yong and Zhang, Yulun},
+    journal={arXiv preprint arXiv:25xx.xxxx},
+    year={2025}
+}
+```
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
