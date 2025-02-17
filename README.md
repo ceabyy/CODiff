@@ -2,7 +2,7 @@
 
 [Jinpei Guo](https://jp-guo.github.io/), [Zheng Chen](https://zhengchen1999.github.io/), [Wenbo Li](https://fenglinglwb.github.io/),  [Yong Guo](https://www.guoyongcs.com/), and [Yulun Zhang](http://yulunzhang.com/),  "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", arXiv, 2025
 
-[[paper]()] [[supplementary material]()]
+[[paper](https://arxiv.org/pdf/2502.09873)] [[supplementary material](https://github.com/jp-guo/CODiff/releases/tag/v1)]
 
 #### 🔥🔥🔥 News
 
@@ -95,7 +95,7 @@ If you find the code helpful in your research or work, please cite the following
 @article{guo2025compression,
     title={Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal},
     author={Guo, Jinpei and Chen, Zheng and Li, Wenbo and Guo, Yong and Zhang, Yulun},
-    journal={arXiv preprint arXiv:25xx.xxxx},
+    journal={arXiv preprint arXiv:2502.09873},
     year={2025}
 }
 ```
