@@ -95,7 +95,7 @@ If you find the code helpful in your research or work, please cite the following
 @article{xxx,
     title={Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal},
     author={Guo, Jinpei and Chen, Zheng and Li, Wenbo and Guo, Yong and Zhang, Yulun},
-    journal={arXiv preprint arXiv:25xx.xxxx},
+    journal={arXiv preprint arXiv:2502.09873},
     year={2025}
 }
 ```
