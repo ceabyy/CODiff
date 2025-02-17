@@ -92,7 +92,7 @@ We achieved state-of-the-art performance on LIVE-1, Urban100 and DIV2K-val datas
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-@article{xxx,
+@article{guo2025compression,
     title={Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal},
     author={Guo, Jinpei and Chen, Zheng and Li, Wenbo and Guo, Yong and Zhang, Yulun},
     journal={arXiv preprint arXiv:25xx.xxxx},
