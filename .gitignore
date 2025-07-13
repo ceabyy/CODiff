@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
 # C extensions
 *.so
 
@@ -154,4 +155,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Pycharm
 .idea/
+
+model_zoo/*

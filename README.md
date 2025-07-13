@@ -32,21 +32,60 @@ CODiff reconstruction demos on JPEG images with QF=10
 
 ---
 
-## ⚒️ TODO
+## Contents
 
-* [ ] Release code and pretrained models
-
-## 🔗 Contents
-
-- [ ] Datasets
-- [ ] Models
-- [ ] Testing
-- [ ] Training
+- [x] [Setup](#Setup)
+- [x] [Training](#Training)
+- [x] [Testing](#Testing)
 - [x] [Results](#Results)
-- [ ] Citation
-- [ ] Acknowledgements
+- [x] [Citation](#Citation)
+- [x] [Acknowledgements](#Acknowledgements)
 
-## <a name="results"></a>🔎 Results
+---
+
+## <a name="setup"></a> Setup
+
+### Environment
+The implementation is primarily developed on top of [OSEDiff](https://github.com/cswry/OSEDiff)'s code foundation.
+```aiignore
+conda env create -f environment.yml
+conda activate codiff
+```
+
+### Models
+Please download the following models and place them in the `model_zoo` directory.
+1. [SD-2.1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
+2. [CODiff](https://drive.google.com/file/d/1SHZQs8fu3K419jlENoY8qdTKbjAOL0i7/view?usp=drive_link)
+3. [CaVE](https://drive.google.com/file/d/1SZo5UMSMEcYy4Wr-OIQgTk8hUXiFMIbK/view?usp=drive_link)
+
+---
+
+## <a name="training"></a> Training
+Training consists of two stages. In the first stage, we train CaVE. In the second stage, we freeze the parameters of CaVE and fine-tune CODiff's UNet with LoRA.
+### First Stage
+Update the training [configuration file](https://github.com/jp-guo/CODiff/tree/main/options/cave.json) with appropriate values, then run:
+```aiignore
+python main_train_cave.py
+```
+
+### Second Stage
+Update the [configuration file](https://github.com/jp-guo/CODiff/tree/main/options/codiff.json) with appropriate values, specify the CaVE checkpoint from the first stage in [train_codiff.sh](https://github.com/jp-guo/CODiff/tree/main/train_codiff.sh), 
+and launch training:
+```aiignore
+bash train_codiff.sh
+```
+
+---
+
+## <a name="Testing"></a> Testing
+Specify the paths to the CaVE and CODiff checkpoints, as well as the dataset directory in [test_codiff.sh](https://github.com/jp-guo/CODiff/tree/main/test_codiff.sh), then run:
+```aiignore
+bash test_codiff.sh
+```
+
+---
+
+## <a name="results"></a> Results
 
 We achieved state-of-the-art performance on LIVE-1, Urban100 and DIV2K-val datasets. Detailed results can be found in the paper.
 
@@ -87,7 +126,7 @@ We achieved state-of-the-art performance on LIVE-1, Urban100 and DIV2K-val datas
 </li>
 </details>
 
-## <a name="citation"></a>📎 Citation
+## <a name="citation"></a> Citation
 
 If you find the code helpful in your research or work, please cite the following paper(s).
 
@@ -100,8 +139,6 @@ If you find the code helpful in your research or work, please cite the following
 }
 ```
 
-## <a name="acknowledgements"></a>💡 Acknowledgements
+## <a name="acknowledgements"></a> Acknowledgements
 
-[TBD]
-
-<!-- ![Visitor Count](https://profile-counter.glitch.me/jkwang28/count.svg) -->
+This code is built on [FBCNN](https://github.com/jiaxi-jiang/FBCNN) and [OSEDiff](https://github.com/cswry/OSEDiff).
