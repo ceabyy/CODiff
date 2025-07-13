@@ -78,6 +78,7 @@ bash train_codiff.sh
 ---
 
 ## <a name="Testing"></a> Testing
+
 Specify the paths to the CaVE and CODiff checkpoints, as well as the dataset directory in [test_codiff.sh](https://github.com/jp-guo/CODiff/tree/main/test_codiff.sh), then run:
 ```aiignore
 bash test_codiff.sh
