@@ -10,9 +10,6 @@ from models.autoencoder_kl import AutoencoderKL
 from models.unet_2d_condition import UNet2DConditionModel
 from peft import LoraConfig
 
-from my_utils.vaehook import VAEHook, perfcount
-from my_utils.jpeg_torch import jpeg_encode
-
 
 def initialize_unet(args):
     unet = UNet2DConditionModel.from_pretrained(args.pretrained_model, subfolder="unet")
