@@ -149,7 +149,7 @@ if __name__ == "__main__":
         avg_clipiqa = sum(test_results['clipiqa']) / len(test_results['clipiqa'])
 
         print(
-            'Average LPIPIS,DISTS,MUSIQ,MANIQA,CLIPIQA - {} -: {:.4f},{:.4f},{:.4f},{:.2f},{:.4f},{:.4f}'.format(
+            'Average LPIPIS,DISTS,MUSIQ,MANIQA,CLIPIQA - {} -: {:.4f},{:.4f},{:.4f},{:.4f},{:.4f}'.format(
                 str(quality_factor), avg_lpips, avg_dists, avg_musiq, avg_maniqa, avg_clipiqa))
 
         print(quality_factor, avg_lpips, avg_dists, avg_musiq, avg_maniqa,

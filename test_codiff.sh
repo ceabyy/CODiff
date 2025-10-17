@@ -1,11 +1,11 @@
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=5
 export HF_ENDPOINT=https://hf-mirror.com
 
-dataset=LIVE1_color
+dataset=DIV2K_valid
 
 python main_test_codiff.py \
-  -i /PATH/TO/YOUR/DATASET \
+  -i /data/dataset/CAR/${dataset} \
   -o test_results/$dataset \
-  --pretrained_model model_zoo/stable-diffusion-2-1-base \
+  --pretrained_model /data/pretrained/stable-diffusion-2-1-base \
   --cave_path model_zoo/cave.pth \
   --codiff_path model_zoo/codiff.pkl
